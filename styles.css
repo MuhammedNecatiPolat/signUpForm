@@ -1,0 +1,15 @@
+.main-container {
+  display: flex;
+}
+
+.left-container {
+    background-image: url(images/leaves.webp);
+    object-fit: contain;
+}
+
+.sign-in-button {
+    background-color: #596D48;
+    border-radius: 8px;
+    padding: 10px 30px;
+    border: none;
+}
