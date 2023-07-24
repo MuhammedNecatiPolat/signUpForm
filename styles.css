@@ -1,10 +1,19 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(./Norse-Bold.otf);
+}
+
+
 .main-container {
   display: flex;
 }
 
 .left-container {
+    position: relative;
     background-image: url(images/leaves.webp);
     object-fit: contain;
+    height: 100vh;
+    width: 400px;
 }
 
 .sign-in-button {
@@ -12,4 +21,33 @@
     border-radius: 8px;
     padding: 10px 30px;
     border: none;
+}
+
+.credit {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: Norse-Bold;
+}
+
+.logo-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
 }
