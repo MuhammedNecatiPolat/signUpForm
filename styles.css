@@ -4,6 +4,11 @@
 }
 
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .main-container {
   display: flex;
 }
@@ -13,6 +18,7 @@
     flex-direction: column;
     align-items: stretch;
     justify-content: stretch;
+    align-content: stretch;
 }
 
 .left-container {
@@ -20,14 +26,20 @@
     background-image: url(images/leaves.webp);
     object-fit: contain;
     height: 100vh;
-    width: 500px;
+    width: 700px;
 }
 
 .sign-in-button {
     background-color: #596D48;
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 10px 30px;
     border: none;
+    width: 20%;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+
 }
 
 .credit {
@@ -119,4 +131,8 @@ input {
 .login a{
     color: #596D48;
     text-decoration: none;
+}
+
+.login{
+    font-size: 20px
 }
