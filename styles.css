@@ -135,3 +135,9 @@ input {
 .login{
     font-size: 20px
 }
+
+#password-span.invalid::after {
+    content: "Invalid password";
+    color: red;
+    font-size: 15px;
+}
