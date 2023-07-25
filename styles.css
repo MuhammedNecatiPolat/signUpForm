@@ -16,9 +16,6 @@ body {
 .right-container {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    justify-content: stretch;
-    align-content: stretch;
 }
 
 .left-container {
@@ -79,7 +76,7 @@ a {
     flex-direction: column;
     justify-content: center;
     padding-left: 50px;
-    
+    flex: 1 1;    
 }
 
 .description-container,
