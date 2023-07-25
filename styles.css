@@ -83,12 +83,13 @@ a {
 .description-container,
 .entry-section {
     background-color: #f2f2f2;
-    gap: 40px;
+    
 }
 
 .description-container {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 50px;
+    gap: 40px;
 }
 
 .description {
